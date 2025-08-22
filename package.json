@@ -1,0 +1,47 @@
+{
+  "name": "nortegas-puntos",
+  "version": "1.0.0",
+  "description": "Sistema completo de puntos y canjes para NorteGAS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python src/main.py",
+    "build": "cd frontend && npm run build",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && python -m venv venv && source venv/bin/activate && pip install -r requirements.txt",
+    "setup": "npm run install:all && npm run setup:env",
+    "setup:env": "cp frontend/.env.example frontend/.env && cp backend/.env.example backend/.env",
+    "clean": "rm -rf frontend/node_modules frontend/dist backend/venv backend/src/database/app.db",
+    "test": "npm run test:frontend && npm run test:backend",
+    "test:frontend": "cd frontend && npm run test",
+    "test:backend": "cd backend && source venv/bin/activate && pytest"
+  },
+  "keywords": [
+    "nortegas",
+    "puntos",
+    "fidelizacion",
+    "react",
+    "flask",
+    "whatsapp"
+  ],
+  "author": "NorteGAS",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "python": ">=3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/nortegas-puntos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/nortegas-puntos/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/nortegas-puntos#readme"
+}
+
