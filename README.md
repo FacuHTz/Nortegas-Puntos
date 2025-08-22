@@ -96,6 +96,7 @@ El frontend estará disponible en: `http://localhost:5173`
 ## 🎯 Funcionalidades Principales
 
 ### Para Clientes
+
 - ✅ **Registro y Login** con datos completos
 - ✅ **Sistema de Puntos** con códigos promocionales
 - ✅ **Canje de Premios** con 4 opciones disponibles
@@ -104,6 +105,7 @@ El frontend estará disponible en: `http://localhost:5173`
 - ✅ **Diseño Responsivo** para móviles
 
 ### Para Administradores
+
 - ✅ **Panel de Control** con métricas
 - ✅ **Gestión de Usuarios** y puntos
 - ✅ **Gestión de Códigos** promocionales
@@ -112,17 +114,16 @@ El frontend estará disponible en: `http://localhost:5173`
 
 ## 🎁 Premios Disponibles
 
-| Premio | Puntos Requeridos | Descripción |
-|--------|------------------|-------------|
-| 🚚 Envío Gratis | 500 | Delivery gratuito de garrafa |
-| 💰 Descuento $5000 | 2500 | Descuento en compra de garrafa |
-| ☕ Taza NorteGAS | 1500 | Taza exclusiva con logo |
-| 👑 Gorra NorteGAS | 1500 | Gorra oficial con bordado |
+| Premio             | Puntos Requeridos | Descripción                    |
+| ------------------ | ----------------- | ------------------------------ |
+| 🚚 Envío Gratis    | 500               | Delivery gratuito de garrafa   |
+| 💰 Descuento $5000 | 2500              | Descuento en compra de garrafa |
+| ☕ Taza NorteGAS   | 1500              | Taza exclusiva con logo        |
+| 👑 Gorra NorteGAS  | 1500              | Gorra oficial con bordado      |
 
 ## 🔑 Códigos Promocionales de Prueba
 
 - `NORTEGAS2024` - 200 puntos
-- `GASNATURAL` - 300 puntos
 - `PROMO2024` - 250 puntos
 - `BIENVENIDO` - 100 puntos
 - `ESPECIAL` - 150 puntos
@@ -132,12 +133,12 @@ El frontend estará disponible en: `http://localhost:5173`
 
 ## 🔐 Acceso Administrativo
 
-- **Email**: admin@nortegas.com
-- **Contraseña**: admin123
+- **Email**: ****\*\*****
+- **Contraseña**: **\*\***
 
 ## 📱 Integración WhatsApp
 
-Los canjes de "Envío Gratis" y "Descuento $5000" generan automáticamente un mensaje de WhatsApp al número **+5493436214609** con:
+Los canjes de "Envío Gratis" y "Descuento $5000" generan automáticamente un mensaje de WhatsApp de la empresa con:
 
 - Tipo de canje realizado
 - Nombre del cliente
@@ -148,12 +149,14 @@ Los canjes de "Envío Gratis" y "Descuento $5000" generan automáticamente un me
 ## 🛠️ Tecnologías Utilizadas
 
 ### Frontend
+
 - **React** 18 con Vite
 - **Tailwind CSS** para estilos
 - **Lucide React** para iconos
 - **React Router** para navegación
 
 ### Backend
+
 - **Flask** con Python
 - **SQLAlchemy** para base de datos
 - **JWT** para autenticación
@@ -173,10 +176,13 @@ Los canjes de "Envío Gratis" y "Descuento $5000" generan automáticamente un me
 ## 🚀 Despliegue
 
 ### Desarrollo Local
+
 Sigue las instrucciones de instalación arriba.
 
 ### Producción
+
 El proyecto está configurado para desplegarse en plataformas como:
+
 - **Vercel/Netlify** (Frontend)
 - **Heroku/Railway** (Backend)
 - **PostgreSQL** (Base de datos)
@@ -184,17 +190,20 @@ El proyecto está configurado para desplegarse en plataformas como:
 ## 📝 API Endpoints
 
 ### Autenticación
+
 - `POST /api/auth/register` - Registro de usuario
 - `POST /api/auth/login` - Login
 - `POST /api/auth/verify-token` - Verificar token
 
 ### Puntos y Códigos
+
 - `GET /api/user/points` - Consultar puntos
 - `POST /api/codes/redeem` - Canjear código
 - `POST /api/rewards/redeem` - Canjear premio
 - `GET /api/user/history` - Historial
 
 ### Administración
+
 - `GET /api/admin/dashboard` - Dashboard
 - `GET /api/admin/users` - Gestión usuarios
 - `POST /api/admin/codes` - Crear códigos
@@ -214,10 +223,10 @@ Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
 ## 📞 Soporte
 
 Para soporte técnico o consultas:
-- **Email**: soporte@nortegas.com
-- **WhatsApp**: +5493436214609
+
+- **Email**: _consultar_
+- **WhatsApp**: _consultar_
 
 ---
 
 **Desarrollado con ❤️ para NorteGAS**
-
