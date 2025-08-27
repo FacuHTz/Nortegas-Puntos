@@ -1,0 +1,137 @@
+{
+  "export_date": "2025-08-27T10:04:59.544946",
+  "tables": {
+    "user": [
+      {
+        "id": 1,
+        "username": "wwrwerwe.gererger",
+        "email": "asdasdasda@asda.sad",
+        "password_hash": "scrypt:32768:8:1$wK9iYpdXx3lZEOyR$2b0785b98370abcd5ec03be4a09001af4c0fdc3c5de007cff4e99c810c1970e066659f4b74f5bd6a7a41096c4c2858c913d0f3e82f267000d36c9797dfd88793",
+        "nombre": "wwrwerwe",
+        "apellido": "gererger",
+        "nombre_completo": "wwrwerwe gererger",
+        "dni": "12345678",
+        "domicilio": "erwer 123",
+        "fecha_nacimiento": "1234-12-31",
+        "puntos_actuales": 100,
+        "email_verificado": 1,
+        "activo": 1,
+        "ultimo_login": "2025-08-19 09:46:50.753910"
+      }
+    ],
+    "codigos_promocionales": [
+      {
+        "id": 1,
+        "codigo": "NORTEGAS2024",
+        "puntos_valor": 200,
+        "descripcion": "Código promocional NorteGAS 2024",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:47.986900",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 2,
+        "codigo": "GASNATURAL",
+        "puntos_valor": 300,
+        "descripcion": "Código Gas Natural",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 3,
+        "codigo": "PROMO2024",
+        "puntos_valor": 250,
+        "descripcion": "Promoción especial 2024",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 4,
+        "codigo": "BIENVENIDO",
+        "puntos_valor": 100,
+        "descripcion": "Código de bienvenida",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 5,
+        "codigo": "ESPECIAL",
+        "puntos_valor": 150,
+        "descripcion": "Código especial",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 6,
+        "codigo": "BONUS",
+        "puntos_valor": 75,
+        "descripcion": "Código bonus",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 7,
+        "codigo": "REGALO",
+        "puntos_valor": 200,
+        "descripcion": "Código regalo",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      },
+      {
+        "id": 8,
+        "codigo": "DEMO123",
+        "puntos_valor": 50,
+        "descripcion": "Código demo",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.002528",
+        "fecha_expiracion": null,
+        "usos_maximos": null,
+        "usos_actuales": 0
+      }
+    ],
+    "administradores": [
+      {
+        "id": 1,
+        "email": "admin@nortegas.com",
+        "password_hash": "scrypt:32768:8:1$rzngswE7DaOtZTMN$82e361429097cdce0612205ecb3016f0a8326287a3e614073ef477325686f4d1c8cb3b705942dbd38d8e6b45a00a2d4bc17dcf19149124654b09bbcf980618ee",
+        "nombre": "Administrador NorteGAS",
+        "rol": "admin",
+        "activo": 1,
+        "fecha_creacion": "2025-08-19 09:45:48.185338"
+      }
+    ],
+    "historial_puntos": [
+      {
+        "id": 1,
+        "usuario_id": 1,
+        "tipo_operacion": "carga",
+        "puntos_cantidad": 100,
+        "descripcion": "Puntos de bienvenida al registrarse",
+        "fecha": "2025-08-19 09:45:55.145749",
+        "codigo_promocional": null,
+        "referencia_externa": null
+      }
+    ],
+    "canjes_realizados": []
+  }
+}
